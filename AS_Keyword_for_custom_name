@@ -1,0 +1,2 @@
+SELECT Roll AS id ,Name AS 'First name'
+FROM student_details;
