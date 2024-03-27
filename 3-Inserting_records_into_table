@@ -1,0 +1,9 @@
+INSERT INTO Student_Info VALUES
+(101,"Hasan Rafi Ahmed","Male",24,3.42,"Barishal"),
+(102,"Nafi Mahmud Bukhari","Male",24,3.46,"Barishal"),
+(103,"A Rahim","Male",18,3.44,'Sylhet'),
+(104,"Hasina","Female",17,4.50,'Dhaka'),
+(105,"Sabul","Male",17,4.50,'Dhaka'),
+(106,"Suhan","Male",17,4.50,'Khulna'),
+(107,"A Rahman","Male",17,4.50,'Dhaka'),
+(108,"Hasina","Female",17,4.50,'Sylhet');
