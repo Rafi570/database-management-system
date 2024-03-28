@@ -1,0 +1,12 @@
+SELECT *
+FROM Student_Info WHERE Gender="Male" OR GPA <=3.50;
+
+SELECT *
+FROM Student_Info WHERE Gender="Male" OR GPA <=3.50 
+ORDER BY City;
+
+
+SELECT * 
+FROM Student_Info 
+WHERE 
+City='Dhaka' or city ='Barishal' AND GPA >3.20;
