@@ -1,0 +1,12 @@
+SELECT Name FROM Student_Info
+ORDER by Name;
+
+SELECT Name,Roll,Gender FROM Student_Info
+ORDER BY Name;
+
+
+SELECT Name,Roll,Gender FROM Student_Info
+ORDER BY Name DESC;
+
+SELECT Name,Roll,Gender FROM Student_Info
+ORDER BY Name,GPA;
