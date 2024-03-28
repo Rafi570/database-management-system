@@ -1,0 +1,6 @@
+SELECT DISTINCT City FROM Student_Info;
+
+SELECT * FROM Student_Info LIMIT 5;
+
+SELECT * FROM Student_Info
+LIMIT 2,5;
