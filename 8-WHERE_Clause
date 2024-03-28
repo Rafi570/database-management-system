@@ -1,0 +1,20 @@
+SELECT Name FROM Student_Info WHERE Gender="Female";
+
+SELECT DISTINCT City
+FROM Student_Info
+WHERE Gender="Female";
+
+
+
+SELECT DISTINCT City
+FROM Student_Info
+WHERE Gender="Female"
+ORDER BY City DESC;
+
+
+SELECT DISTINCT *
+FROM Student_Info
+WHERE Age <=20
+ORDER BY City DESC;
+
+
