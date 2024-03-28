@@ -1,0 +1,9 @@
+SELECT * 
+FROM Student_Info
+WHERE Roll BETWEEN 102 AND 104;
+
+
+
+SELECT Name,Roll,Gender
+FROM Student_Info
+WHERE Roll!=102;
