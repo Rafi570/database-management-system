@@ -1,0 +1,6 @@
+SELECT *
+FROM Student_Info WHERE City IN ('Barishal' ,"Dhaka");
+
+
+SELECT *
+FROM Student_Info WHERE City NOT IN ('Barishal' ,"Dhaka");
