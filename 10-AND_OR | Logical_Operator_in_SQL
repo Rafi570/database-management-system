@@ -10,3 +10,9 @@ SELECT *
 FROM Student_Info 
 WHERE 
 City='Dhaka' or city ='Barishal' AND GPA >3.20;
+
+
+
+SELECT *
+FROM Student_Info
+WHERE City="Barishal" AND (Gender="Male" OR Age>=20);
