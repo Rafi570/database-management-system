@@ -1,27 +1,27 @@
 SELECT *
-FROM student_details
+FROM Student_Info
 WHERE Name LIKE '%A';
 
 
 
 
 SELECT *
-FROM student_details
+FROM Student_Info
 WHERE Name LIKE 'A%';
 
 
 SELECT *
-FROM student_details
+FROM Student_Info
 WHERE Name LIKE '%FI%';
 
 
 
 SELECT *
-FROM student_details
+FROM Student_Info
 WHERE Name LIKE '%_A';
 
 
 SELECT *
-FROM student_details
+FROM Student_Info
 WHERE Name LIKE '%A_';
 
