@@ -1,0 +1,9 @@
+SELECT UPPER("hasan rafi ahmed");
+SELECT LOWER("NAfi ");
+
+SELECT UPPER(Name)
+FROM Teacher_info;
+
+
+SELECT UPPER(Name) AS Capital_Name
+FROM Teacher_info;
