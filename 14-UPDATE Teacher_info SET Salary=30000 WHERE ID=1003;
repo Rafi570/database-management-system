@@ -1,0 +1,3 @@
+UPDATE Teacher_info
+SET Salary=30000
+WHERE ID=1003;
