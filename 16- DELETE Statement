@@ -1,0 +1,1 @@
+DELETE FROM Teacher_info WHERE ID=1000;
