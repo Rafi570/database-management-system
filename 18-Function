@@ -1,0 +1,14 @@
+SELECT concat (Name, "is " ,Age ,"years old")
+FROM Student_Info;
+
+SELECT least(-2,9,-5);
+
+SELECT pow(2,3);
+
+SELECT LOG(2);
+
+SELECT LOG10(2);
+SELECT TRUNCATE(10.55555555,2);
+SELECT TRUNCATE(log(2),2);
+SELECT EXP(2);
+SELECT rand();
