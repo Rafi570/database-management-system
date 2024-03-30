@@ -1,0 +1,8 @@
+SELECT COUNT(*)
+FROM Student_Info;
+
+SELECT MAX(Roll) FROM Student_Info;
+SELECT MIN(Roll) FROM Student_Info;
+
+SELECT SUM(Salary),AVG(Salary)
+FROM Teacher_info;
