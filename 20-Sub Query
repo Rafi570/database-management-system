@@ -1,0 +1,13 @@
+
+SELECT AVG(Salary)
+FROM Teacher_info;
+
+SELECT * 
+FROM Teacher_info
+WHERE Salary>27766.666667
+;
+SELECT * 
+FROM Teacher_info
+WHERE Salary>(SELECT AVG(Salary)
+FROM Teacher_info)
+;
