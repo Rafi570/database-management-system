@@ -1,0 +1,10 @@
+INSERT INTO `Exam_Result` (`Reg_Number`, `Roll`, `GPA`, `Group_Subject`) 
+VALUES 
+('20171', '102', '3.25', 'Science'), 
+('20172', '101', '3.44', 'Arts'), 
+('20173', '103', '4.00', 'Science'), 
+('20174', '104', '5.00', 'Commerce');
+
+SELECT New_Student_info.Roll,Reg_Number,Name,Gender,Group_Subject,GPA
+FROM New_Student_info,Exam_Result
+WHERE New_Student_info.Roll=Exam_Result.Roll;
