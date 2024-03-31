@@ -2,4 +2,25 @@ UPDATE  Teacher_info
 SET Department="Arabi"
 where ID=1001;
 
-UPDATE `Teacher_info` SET `Department` = 'Arabi' WHERE `Teacher_info`.`ID` = 1002; UPDATE `Teacher_info` SET `Department` = 'BBA' WHERE `Teacher_info`.`ID` = 1003; UPDATE `Teacher_info` SET `Department` = 'BBA' WHERE `Teacher_info`.`ID` = 1004; UPDATE `Teacher_info` SET `Department` = 'CSE' WHERE `Teacher_info`.`ID` = 1005; UPDATE `Teacher_info` SET `Department` = 'CSE' WHERE `Teacher_info`.`ID` = 1006; UPDATE `Teacher_info` SET `Department` = 'English' WHERE `Teacher_info`.`ID` = 1007; UPDATE `Teacher_info` SET `Department` = 'Bangla' WHERE `Teacher_info`.`ID` = 1008; UPDATE `Teacher_info` SET `Department` = 'Biology ' WHERE `Teacher_info`.`ID` = 1009; UPDATE `Teacher_info` SET `Department` = 'Physic' WHERE `Teacher_info`.`ID` = 1010; UPDATE `Teacher_info` SET `Department` = 'Arabi' WHERE `Teacher_info`.`ID` = 1011; UPDATE `Teacher_info` SET `Department` = 'Hadis' WHERE `Teacher_info`.`ID` = 1012;
+UPDATE `Teacher_info` 
+SET `Department` = 'Arabi' WHERE `Teacher_info`.`ID` = 1002; 
+UPDATE `Teacher_info`
+SET `Department` = 'BBA' WHERE `Teacher_info`.`ID` = 1003; 
+UPDATE `Teacher_info` 
+SET `Department` = 'BBA' WHERE `Teacher_info`.`ID` = 1004;
+UPDATE `Teacher_info` 
+SET `Department` = 'CSE' WHERE `Teacher_info`.`ID` = 1005; 
+UPDATE `Teacher_info`
+SET `Department` = 'CSE' WHERE `Teacher_info`.`ID` = 1006; 
+UPDATE `Teacher_info` 
+SET `Department` = 'English' WHERE `Teacher_info`.`ID` = 1007; 
+UPDATE `Teacher_info`
+SET `Department` = 'Bangla' WHERE `Teacher_info`.`ID` = 1008; 
+UPDATE `Teacher_info` 
+SET `Department` = 'Biology ' WHERE `Teacher_info`.`ID` = 1009; 
+UPDATE `Teacher_info` 
+SET `Department` = 'Physic' WHERE `Teacher_info`.`ID` = 1010; 
+UPDATE `Teacher_info` 
+SET `Department` = 'Arabi' WHERE `Teacher_info`.`ID` = 1011; 
+UPDATE `Teacher_info` 
+SET `Department` = 'Hadis' WHERE `Teacher_info`.`ID` = 1012;
