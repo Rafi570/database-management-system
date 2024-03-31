@@ -1,0 +1,11 @@
+INSERT INTO `New_Student_info` 
+(`Roll`, `Name`, `Gender`, `Age`) 
+VALUES 
+('106', 'Sahin', 'Male', '24'), 
+('107', 'Sahina', 'Female', '22'), 
+('108', 'Beauty', 'Female', '24');
+
+
+SELECT New_Student_info.Roll,Exam_Result.Reg_Number,New_Student_info.Name,New_Student_info.Gender,Exam_Result.GPA,Exam_Result.Group_Subject
+FROM New_Student_info INNER JOIN Exam_Result
+ON New_Student_info.Roll=Exam_Result.Roll;
