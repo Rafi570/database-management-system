@@ -1,0 +1,4 @@
+SELECT Department,SUM(Salary)
+FROM Teacher_info 
+GROUP BY Department
+ORDER BY SUM(Salary);
