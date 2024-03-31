@@ -1,0 +1,8 @@
+SELECT New_Student_info.Roll,Exam_Result.Reg_Number,New_Student_info.Name,New_Student_info.Gender,Exam_Result.GPA,Exam_Result.Group_Subject
+FROM New_Student_info LEFT JOIN Exam_Result
+ON New_Student_info.Roll=Exam_Result.Roll;
+
+
+SELECT New_Student_info.Roll,Exam_Result.Reg_Number,New_Student_info.Name,New_Student_info.Gender,Exam_Result.GPA,Exam_Result.Group_Subject
+FROM New_Student_info RIGHT JOIN Exam_Result
+ON New_Student_info.Roll=Exam_Result.Roll;
