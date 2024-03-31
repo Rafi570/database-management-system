@@ -1,0 +1,3 @@
+SELECT New_Student_info.Roll,Reg_Number,Name,Gender,Group_Subject,GPA
+FROM New_Student_info JOIN Exam_Result
+ON New_Student_info.Roll=Exam_Result.Roll;
