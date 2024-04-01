@@ -1,0 +1,14 @@
+CREATE VIEW Student_View AS
+SELECT Roll,Name,Gender
+FROM Student_Info;
+
+
+SELECT *
+FROM Student_View;
+
+UPDATE Student_View
+SET Name="jubayer"
+WHERE Roll=106;
+
+INSERT INTO Student_View (Roll,Name,Gender)
+VALUES (109,"Hasina",'Female');
