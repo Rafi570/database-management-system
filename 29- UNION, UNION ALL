@@ -1,0 +1,29 @@
+CREATE TABLE Sylhet_Tour
+(
+    Roll int,
+    Name varchar(10),
+    Gender varchar(6),
+    Age int ,
+    PRIMARY KEY(Roll)
+);
+
+
+INSERT INTO `Sylhet_Tour` (`Roll`, `Name`, `Gender`, `Age`) VALUES ('101', 'A Rahim', 'Male', '18'), ('102', 'Karim', 'Male', '17'), ('103', 'Sujon', 'Male', '18'), ('104', 'Rahima', 'Female', '18');
+
+CREATE TABLE Dhaka_Tour
+(
+    Roll int,
+    Name varchar(10),
+    Gender varchar(6),
+    Age int ,
+    PRIMARY KEY(Roll)
+);
+
+INSERT INTO `Dhaka_Tour` (`Roll`, `Name`, `Gender`, `Age`) VALUES ('104', 'Rahima', 'Female', '18'), ('105', 'Farjana', 'Female', '18'), ('106', 'Mahfuza', 'Female', '18'), ('107', 'Shakila', 'Female', '17');
+
+SELECT Roll,Name,Gender
+FROM Sylhet_Tour
+UNION
+SELECT Roll,Name,Gender
+FROM Dhaka_Tour;
+
