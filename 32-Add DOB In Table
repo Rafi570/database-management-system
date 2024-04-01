@@ -1,0 +1,5 @@
+ALTER TABLE `Student_Info` ADD `DOB` DATE NOT NULL AFTER `City`;
+
+UPDATE `Student_Info` SET `DOB` = '2000-10-04' WHERE `Student_Info`.`Roll` = 101; UPDATE `Student_Info` SET `DOB` = '2000-11-05' WHERE `Student_Info`.`Roll` = 102; UPDATE `Student_Info` SET `DOB` = '2002-10-03' WHERE `Student_Info`.`Roll` = 103; UPDATE `Student_Info` SET `DOB` = '2005-10-03' WHERE `Student_Info`.`Roll` = 104; UPDATE `Student_Info` SET `DOB` = '2001-10-03' WHERE `Student_Info`.`Roll` = 105; UPDATE `Student_Info` SET `DOB` = '2002-10-03' WHERE `Student_Info`.`Roll` = 106; UPDATE `Student_Info` SET `DOB` = '2003-10-03' WHERE `Student_Info`.`Roll` = 107; UPDATE `Student_Info` SET `DOB` = '2001-10-03' WHERE `Student_Info`.`Roll` = 108; UPDATE `Student_Info` SET `DOB` = '2001-10-03' WHERE `Student_Info`.`Roll` = 109;
+SELECT dayname(DOB)
+FROM Student_Info;
